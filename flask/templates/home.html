@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>University Admission Prediction</title>
+	<style type="text/css">
+		body{
+			background-image: linear-gradient(to right, lavender, lightblue, lightgreen, violet);
+		}
+	</style>
+</head>
+<body>
+	<h2>University Admission Prediction</h2>
+	<h4>Enter your details and get probability of your admission</h4>
+	<form method="post" action="{{url_for('y_predict')}}">
+		<label for="gre">Enter GRE score &emsp; </label>
+		<input type="text" name="gre" required> <br> <br>
+
+		<label for="toefl">Enter TOEFL score </label>
+		<input type="text" name="toefl" required> <br> <br>
+
+		Select University No : <br> <br>
+		<input type="radio" name="uni_num" value="1">
+		<label for="1">1</label> <br>
+		<input type="radio" name="uni_num" value="2">
+		<label for="2">2</label> <br>
+		<input type="radio" name="uni_num" value="3">
+		<label for="3">3</label> <br>
+		<input type="radio" name="uni_num" value="4">
+		<label for="4">4</label> <br>
+		<input type="radio" name="uni_num" value="5">
+		<label for="5">5</label> <br> <br>
+		
+
+		<label for="sop">Enter SOP &emsp; </label>
+		<input type="text" name="sop" required> <br>  <br>
+
+		<label for="lor">Enter LOR &emsp; </label>
+		<input type="text" name="lor" required> <br> <br>
+
+		<label for="cgpa">Enter CGPA &nbsp; </label>
+		<input type="text" name="cgpa" required> <br> <br>
+
+		Research <br> <br>
+		<input type="radio" name="research" value="1"> 
+		<label for="research">Research</label> <br>
+		<input type="radio" name="research" value="0">
+		<label for="no_research">No Research</label> <br> 
+
+		<input type="submit" value="Predict">
+	</form>
+	<Marquee style="color: blue;text-shadow: 2px 2px 5px solid blue;">
+		SELVARAJ I <br>
+		SANMUGAM M <br>
+		VIJAYAKUMAR M <br>
+		SIVABALAN P 
+	</Marquee>
+
+	
+</body>
+</html>
