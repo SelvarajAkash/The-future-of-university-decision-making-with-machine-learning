@@ -1,7 +1,7 @@
 # The-future-of-university-decision-making-with-mechine-learning
 
 
-                  # PERIYAR ARTS COLLEGE,CUDDALORE
+                  PERIYAR ARTS COLLEGE,CUDDALORE
 
 # TEAM MEMBERS :
      * SELVARAJ I
